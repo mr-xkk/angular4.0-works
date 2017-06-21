@@ -1,0 +1,21 @@
+.contact_h1{
+    font:34px/47px "微软雅黑";
+    color:#9ec09f;
+}
+.content_p{
+    font:18px/36px "Helvetica";
+    height: 36px;
+    color:#696969;
+}
+.address_p{
+    font:14px/25px "Helvetica";
+    height: 25px;
+    padding: 15px 0;
+    color:#696969;
+}
+.icon img{
+    width:100%;
+}
+.icon .showimg{
+    width:20%;
+}

@@ -1,0 +1,16 @@
+.detail_list{
+    padding:10%; 
+}
+.skill_title{
+    font:24px/28px "黑体";
+    height: 28px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    color:#9ec09f;
+}
+.skill_item a{
+    display: inline-block;
+    font:14px/30px "华文细黑";
+    height:30px;
+    color: #666;
+}

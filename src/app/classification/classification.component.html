@@ -1,0 +1,57 @@
+<div class="maxwell row" style="background:#fff;padding:5% 0">
+  <div class="col-md-offset-1 col-md-10">
+    <div class="contain"  *ngIf="showInfo=='angular'">
+      <ul *ngFor="let classitem of classDatas;let ii=index">
+        <li>
+          <a routerLink="/detail/{{ii}}/angular" class="class_a">
+            {{classitem.angular[1]?.title}}
+          </a>
+          <img [src]="classitem.angular[3]?.imgsrc" class="class_img" *ngIf="classitem.angular[3]?.imgsrc">
+          <p class="class_p">
+            {{classitem.angular[2]?.detail}}
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="contain"  *ngIf="showInfo=='vue'">
+      <ul *ngFor="let classitem of classDatas;let ii=index">       
+        <li>
+          <a routerLink="/detail/{{ii}}/vue" class="class_a">
+            {{classitem.vue[1]?.title}}
+          </a>
+          <img [src]="classitem.vue[3]?.imgsrc" class="class_img" *ngIf="classitem.vue[3]?.imgsrc">
+           <p class="class_p">
+            {{classitem.vue[2]?.detail}}
+          </p>
+        </li>       
+      </ul>
+    </div>
+    <div class="contain"  *ngIf="showInfo=='jq'">
+      <ul *ngFor="let classitem of classDatas;let ii=index">
+        <li>
+          <a routerLink="/detail/{{ii}}/jquery" class="class_a">
+            {{classitem.jq[1]?.title}}
+          </a>
+          <img [src]="classitem.jq[3]?.imgsrc" class="class_img" *ngIf="classitem.jq[3]?.imgsrc">          
+           <p class="class_p">
+            {{classitem.jq[2]?.detail}}
+          </p>
+        </li>
+      </ul>
+    </div>
+    <div class="contain"  *ngIf="showInfo=='food'">
+      <ul *ngFor="let classitem of classDatas;let ii=index">
+        <li>
+          <a routerLink="/detail/{{ii}}/food" class="class_a">
+            {{classitem.food[1]?.title}}
+          </a>
+          <img [src]="classitem.food[3]?.imgsrc" class="class_img" *ngIf="classitem.food[3]?.imgsrc">          
+           <p class="class_p">
+            {{classitem.food[2]?.detail}}
+          </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-md-1"></div>
+</div>

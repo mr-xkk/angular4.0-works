@@ -1,0 +1,39 @@
+<div class="codedetail row" style="background:#fff;padding:5% 0" [@flyIn]="'active'">
+  <!--解析数据对应生成页面-->
+  <div class="col-md-offset-1 col-md-10 code_p">
+    <div *ngIf="getName=='angular'">
+      <blockquote>
+        <h2 class="code_title">{{showInfo?.angular[1].title}}</h2>
+        <footer>文章分类--<cite title="Source Title">{{showInfo?.angular[0].id}}</cite></footer>
+      </blockquote>
+      <img [src]="showInfo?.angular[3].imgsrc" *ngIf="showInfo?.angular[3].imgsrc" class="codeimg">
+      <p>{{showInfo?.angular[2].detail}}</p>
+    </div>
+    <div *ngIf="getName=='vue'">
+      <blockquote>
+        <h2 class="code_title">{{showInfo?.vue[1].title}}</h2>
+        <footer>文章分类--<cite title="Source Title">{{showInfo?.vue[0].id}}</cite></footer>
+      </blockquote>
+      <img [src]="showInfo?.vue[3].imgsrc" *ngIf="showInfo?.vue[3].imgsrc" class="codeimg">
+      <p>{{showInfo?.vue[2].detail}}</p>
+    </div>
+    <div *ngIf="getName=='jquery'">
+      <blockquote>
+        <h2 class="code_title">{{showInfo?.jq[1].title}}</h2>
+        <footer>文章分类--<cite title="Source Title">{{showInfo?.jq[0].id}}</cite></footer>
+      </blockquote>
+      <img [src]="showInfo?.jq[3].imgsrc" *ngIf="showInfo?.jq[3].imgsrc" class="codeimg">
+      <p>{{showInfo?.jq[2].detail}}</p>
+    </div>
+    <div *ngIf="getName=='food'">
+      <blockquote>
+        <h2 class="code_title">{{showInfo?.food[1].title}}</h2>
+        <footer>文章分类--<cite title="Source Title">{{showInfo?.food[0].id}}</cite></footer>
+      </blockquote>
+      <img [src]="showInfo?.food[3].imgsrc" *ngIf="showInfo?.food[3].imgsrc" class="codeimg">
+      <p>{{showInfo?.food[2].detail}}</p>
+    </div>
+  </div>
+  <div class="col-md-1"></div>
+</div>
+

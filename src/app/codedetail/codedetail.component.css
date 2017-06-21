@@ -1,0 +1,19 @@
+.code_p p{
+    font-size:15px;
+    color:#3f3f3f;
+    font-family: "Helvetica";
+    line-height: 22px; 
+    text-indent: 2em;
+    padding: 2% 0;
+}
+.code_title{
+    color: #9ec09f;
+    font-size: 28px;
+    line-height: 40px;
+    height: 40px;
+    font-weight: bold;
+}
+.codeimg{
+    margin-top: 3%;
+    width: 100%;
+}

@@ -1,0 +1,29 @@
+.blog_class{
+    font: 16px/35px "微软雅黑";
+    height: 35px;
+    font-weight: bold;
+    color:#acc4ac;
+}
+a:hover{
+    color:#acc4ac;
+}
+.blog_list{
+    font: 16px/35px "Helvetica";
+}
+.blog_list a{
+    color:#000;
+}
+.blog_list a:hover{
+    color:#acc4ac;
+}
+.about_me{
+    color:#8d9095;
+}
+.about_me img{
+    width: 100%;
+}
+.me_h1{
+    font: 26px/45px "Helvetica";
+    height: 45px;
+    color:#8d9095;
+}

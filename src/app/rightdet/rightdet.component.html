@@ -1,0 +1,37 @@
+<div class="detail_list">
+  <div class="row">
+    <ul class="col-md-6 col-sm-6" style="border-right:1px dashed #9ec09f;">
+      <h1 class="skill_title">angular</h1>
+      <!--ngFor遍历数组-->
+      <li *ngFor="let dataitem of homeDatas;let myindex=index" class="skill_item">
+        <a routerLink="detail/{{myindex}}/angular">
+          {{dataitem.angular[1]?.title}}
+        </a>
+      </li>
+    </ul>
+     <ul class="col-md-6 col-sm-6">
+      <h1 class="skill_title">vue</h1>
+      <li *ngFor="let dataitem of homeDatas;let myindex=index" class="skill_item">
+        <a routerLink="detail/{{myindex}}/vue">
+          {{dataitem.vue[1]?.title}}
+        </a>
+      </li>
+    </ul>
+     <ul class="col-md-6 col-sm-6" style="border-right:1px dashed #9ec09f;">
+      <h1 class="skill_title">jquery</h1>
+      <li *ngFor="let dataitem of homeDatas;let myindex=index" class="skill_item">
+        <a routerLink="detail/{{myindex}}/jquery">
+          {{dataitem.jq[1]?.title}}
+        </a>
+      </li>
+    </ul>
+     <ul class="col-md-6 col-sm-6">
+      <h1 class="skill_title">美食分享</h1>
+      <li *ngFor="let dataitem of homeDatas;let myindex=index" class="skill_item">
+        <a routerLink="detail/{{myindex}}/food">
+          {{dataitem.food[1].title}}
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

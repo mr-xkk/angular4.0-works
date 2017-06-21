@@ -1,0 +1,19 @@
+.class_a{
+    color: #9ec09f;
+    font-size: 22px;
+    line-height: 22px;
+    height: 22px;
+    font-weight: bold;
+}
+.class_img{
+    width: 100%;
+    padding: 2% 0;
+}
+.class_p{
+    padding: 2% 0;
+    font-size:15px;
+    color:#3f3f3f;
+    font-family: "Helvetica";
+    line-height: 22px; 
+    text-indent: 2em;
+}

@@ -1,0 +1,7 @@
+<span *ngIf="likeNum==0">
+    <img src="../../assets/images/good.png" style="width:5%" (click)="likeAdd()">
+    <em>{{like}}</em>
+</span>
+<span *ngIf="likeNum!=0">
+    <img src="../../assets/images/wrost.png" style="width:5%" (click)="hateAdd()">
+</span>

@@ -1,0 +1,22 @@
+<div class="blog_detail row" style="background:#fff" [@flyIn]="'active'">
+  <div class="col-md-10 col-md-offset-1 col-sm-10">
+    <div class="blog_article" *ngFor="let artitem of articleInfos;">
+      <h2 class="lead blog_title">
+        <a routerLink="/detail/0/{{artitem.info}}">
+          {{artitem.title}}
+        </a>
+      </h2>
+      <img *ngIf="artitem.imgsrc"  [src]="artitem.imgsrc">
+      <blockquote>
+      <p>
+        {{artitem.detail}}
+      </p>
+       <footer>文章分类--
+         <cite title="Source Title">{{artitem.info}}</cite>
+       </footer>
+      </blockquote>
+      <app-modals></app-modals>
+    </div>
+  </div>
+  <div class="col-md-1"></div>
+</div>

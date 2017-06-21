@@ -1,0 +1,19 @@
+.blog_detail p{
+    font-size:14px;
+    color:#3f3f3f;
+    line-height: 22px;
+    font-family: "Helvetica"; 
+}
+.blog_article{
+    padding: 10px;
+    border-bottom:1px dashed #9ec09f;
+}
+.blog_article img{
+    width: 100%;
+}
+.blog_title a{
+    color: #9ec09f;
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: bold;
+}
