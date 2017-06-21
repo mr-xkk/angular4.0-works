@@ -20,7 +20,7 @@ export class CodedetailComponent implements OnInit {
   showInfo : object;
   getName : string;
 
-  public codedetailURL = "assets/home_data.json";
+  public codedetailURL = "./assets/home_data.json";
   codeDatas: homeData[];
   //注射
   constructor(@Inject(ActivatedRoute) private router: ActivatedRoute,private http: Http) { 

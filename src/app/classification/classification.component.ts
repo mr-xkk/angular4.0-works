@@ -12,7 +12,7 @@ import{ homeData } from '../all_data/homedata';
 })
 export class ClassificationComponent implements OnInit {
 
-  public codedetailURL = "assets/home_data.json";
+  public codedetailURL = "./assets/home_data.json";
   classDatas: homeData[];
   showInfo:string;
 

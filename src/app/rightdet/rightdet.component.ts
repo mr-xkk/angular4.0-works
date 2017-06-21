@@ -14,7 +14,7 @@ import{ homeData } from '../all_data/homedata';
 })
 export class RightdetComponent implements OnInit {
   //获取虚拟的json数据;
-  public detailURL = "assets/home_data.json";
+  public detailURL = "./assets/home_data.json";
   homeDatas: homeData[];
 
   constructor(private http: Http) { } 

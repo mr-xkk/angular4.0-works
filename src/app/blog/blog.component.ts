@@ -23,7 +23,7 @@ interface articleInfo{
 })
 export class BlogComponent implements OnInit {
   
-  public articleURL = "assets/detail_data.json";
+  public articleURL = "./assets/detail_data.json";
   articleInfos : articleInfo[];
 
   //构造一个http方法
