@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## 项目简介:
 
-本项目是由`angular-cli`脚手架工具搭建的一个博客类的项目,主要是各个组件之间的传参和对于angular4.0 的使用,下面是一些环境配置说明.
+`本项目是由`angular-cli`脚手架工具搭建的一个博客类的项目,主要是各个组件之间的传参和对于angular4.0 的使用,下面是一些环境配置说明.`
 
 ## Development server
 
