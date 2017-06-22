@@ -14,7 +14,7 @@ export class ModalsComponent implements OnInit {
   changelike(){
     if(this.addNum==true){
       this.like='喜欢成功'
-      this.title='再点不喜欢'
+      this.title='再点就不喜欢了'
     }else{
       this.like='不喜欢'
       this.title='再点喜欢'
