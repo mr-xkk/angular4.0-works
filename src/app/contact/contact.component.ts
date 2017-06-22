@@ -11,7 +11,8 @@ import { fadeIn } from '../animations/animate_show';
   ]
 })
 export class ContactComponent implements OnInit {
-
+  myTim:boolean = false;
+  myWe:boolean = false;
   constructor() { }
 
   ngOnInit() {
