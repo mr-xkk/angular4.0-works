@@ -23,7 +23,7 @@ export class CodedetailComponent implements OnInit {
   public codedetailURL = "./assets/home_data.json";
   codeDatas: homeData[];
   //注射
-  constructor(@Inject(ActivatedRoute) private router: ActivatedRoute,private http: Http) { 
+  constructor(@Inject(ActivatedRoute) public router: ActivatedRoute,public http: Http) { 
     
   }
   ngOnInit() {
