@@ -16,7 +16,7 @@ export class ClassificationComponent implements OnInit {
   classDatas: homeData[];
   showInfo:string;
 
-  constructor(@Inject(ActivatedRoute) private router: ActivatedRoute,private http: Http) { 
+  constructor(@Inject(ActivatedRoute) public router: ActivatedRoute,private http: Http) { 
     
   }
 
