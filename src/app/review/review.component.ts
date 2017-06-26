@@ -51,6 +51,10 @@ export class ReviewComponent implements OnInit {
   }
   //获取值插入到页面
   addText(val:string){
+    if(this.textval == null){
+      alert('请输入留言内容');
+      return false;
+    }
     //添加时间
     this.nowYear = this.myDate.getFullYear();
     this.nowMonth = this.myDate.getMonth()+1;
