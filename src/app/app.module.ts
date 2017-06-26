@@ -12,6 +12,8 @@ import {appRoutes} from './app.route';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 //引入模态层组件 
 import { ModalModule } from 'ngx-bootstrap';
+//加入数据绑定模块
+import { FormsModule } from '@angular/forms'
 
 
 import { AppComponent } from './app.component';
@@ -27,6 +29,7 @@ import { CodedetailComponent } from './codedetail/codedetail.component';
 import { ClassificationComponent } from './classification/classification.component';
 import { ThumbComponent } from './thumb/thumb.component';
 import { ModalsComponent } from './modals/modals.component';
+import { ReviewComponent } from './review/review.component';
 
 
 
@@ -44,7 +47,8 @@ import { ModalsComponent } from './modals/modals.component';
     CodedetailComponent,
     ClassificationComponent,
     ThumbComponent,
-    ModalsComponent
+    ModalsComponent,
+    ReviewComponent
   ],
   imports: [
     BrowserModule,
@@ -54,7 +58,8 @@ import { ModalsComponent } from './modals/modals.component';
     HttpModule,
     JsonpModule,
     BrowserAnimationsModule,
-    ModalModule.forRoot()
+    ModalModule.forRoot(),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

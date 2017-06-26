@@ -1,0 +1,18 @@
+<div class="review">
+  <h3 class="review_h3">留言</h3>
+  <textarea class="form-control" rows="3" name="textval" [(ngModel)]="textval" (ngModelChange)="changeVal($event)"></textarea>
+  <button class="btn btn-info re_btn" (click)="addText($event)">留言</button>
+</div>
+<div class="review_cloud">
+  <p>{{showInfo?.angular[4].reviews}}</p>
+  <blockquote *ngFor="let infoItem of needInfo" class="talk">
+      <p> {{infoItem}}</p>
+      <footer> 
+      {{nowYear}}年
+      {{nowMonth}}月
+      {{nowDay}}日
+      {{nowHour}}时
+      {{nowMin}}分
+      <cite title="Source Title">发布时间</cite></footer>
+  </blockquote>
+</div>

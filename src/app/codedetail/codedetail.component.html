@@ -8,6 +8,9 @@
       </blockquote>
       <img [src]="showInfo?.angular[3].imgsrc" *ngIf="showInfo?.angular[3].imgsrc" class="codeimg">
       <p>{{showInfo?.angular[2].detail}}</p>
+      <!--留言区-->
+      <app-review></app-review>
+      <!---->
     </div>
     <div *ngIf="getName=='vue'">
       <blockquote>
@@ -16,6 +19,9 @@
       </blockquote>
       <img [src]="showInfo?.vue[3].imgsrc" *ngIf="showInfo?.vue[3].imgsrc" class="codeimg">
       <p>{{showInfo?.vue[2].detail}}</p>
+      <!--留言区-->
+      <app-review></app-review>
+      <!---->
     </div>
     <div *ngIf="getName=='jquery'">
       <blockquote>
@@ -24,6 +30,9 @@
       </blockquote>
       <img [src]="showInfo?.jq[3].imgsrc" *ngIf="showInfo?.jq[3].imgsrc" class="codeimg">
       <p>{{showInfo?.jq[2].detail}}</p>
+      <!--留言区-->
+      <app-review></app-review>
+      <!---->
     </div>
     <div *ngIf="getName=='food'">
       <blockquote>
@@ -32,8 +41,12 @@
       </blockquote>
       <img [src]="showInfo?.food[3].imgsrc" *ngIf="showInfo?.food[3].imgsrc" class="codeimg">
       <p>{{showInfo?.food[2].detail}}</p>
+      <!--留言区-->
+      <app-review></app-review>
+      <!---->
     </div>
   </div>
   <div class="col-md-1"></div>
 </div>
+ 
 

@@ -1,0 +1,18 @@
+.review_h3{
+    font: 18px/40px "Helvetica";
+    height: 40px;
+}
+.re_btn{
+    margin-top: 2%;
+}
+.review_cloud{
+    margin-top:5%; 
+}
+.talk{
+    font: 16px/30px "Helvetica";
+    height: 60px;
+    background: #9ec09f;
+    text-indent: 1em;
+    margin-top: 2%;
+    border-radius: 4px;
+}

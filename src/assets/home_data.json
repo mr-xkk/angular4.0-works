@@ -5,25 +5,37 @@
                     {"id":"angular"},
                     {"title":"我是第一个angular内容"},
                     {"detail":"angular11111"},
-                    {"imgsrc":"../../assets/images/artpic.jpg"}
+                    {"imgsrc":"../../assets/images/artpic.jpg"},
+                    {"reviews":[
+                       
+                    ]}
                 ],
                 "vue":[
                     {"id":"vue"},
                     {"title":"我是第一个vue内容"},
                     {"detail":"vue1111"},
-                    {"imgsrc":""}
+                    {"imgsrc":""},
+                    {"reviews":[
+                        
+                    ]}
                 ],
                 "jq":[
                     {"id":"jquery"},
                     {"title":"我是第一个jquery内容"},
                     {"detail":"jquery111"},
-                    {"imgsrc":"../../assets/images/artpic.jpg"}
+                    {"imgsrc":"../../assets/images/artpic.jpg"},
+                    {"reviews":[
+                        
+                    ]}
                 ],
                 "food":[
                     {"id":"food"},
                     {"title":"我是第一个美食推荐"},
                     {"detail":"美食1111"},
-                    {"imgsrc":""}
+                    {"imgsrc":""},
+                    {"reviews":[
+                       
+                    ]}
                 ]
             },
             {
@@ -31,25 +43,37 @@
                     {"id":"angular"},
                     {"title":"我是第2个angular内容"},
                     {"detail":"angular2222"},
-                    {"imgsrc":""}
+                    {"imgsrc":""},
+                    {"reviews":[
+                        
+                    ]}
                 ],
                 "vue":[
                     {"id":"vue"},
                     {"title":"我是第2个vue内容"},
                     {"detail":"vue222"},
-                    {"imgsrc":""}
+                    {"imgsrc":""},
+                    {"reviews":[
+                        
+                    ]}
                 ],
                 "jq":[
                     {"id":"jquery"},
                     {"title":"我是第2个jquery内容"},
                     {"detail":"jquery222"},
-                    {"imgsrc":"../../assets/images/artpic.jpg"}
+                    {"imgsrc":"../../assets/images/artpic.jpg"},
+                    {"reviews":[
+                      
+                    ]}
                 ],
                 "food":[
                     {"id":"food"},
                     {"title":"我是第2个美食推荐"},
                     {"detail":"美食222"},
-                    {"imgsrc":""}
+                    {"imgsrc":""},
+                    {"reviews":[
+                     
+                    ]}
                 ]
             },
             {
@@ -57,25 +81,37 @@
                     {"id":"angular"},
                     {"title":"我是第3个angular内容"},
                     {"detail":"angular3333"},
-                    {"imgsrc":""}
+                    {"imgsrc":""},
+                    {"reviews":[
+                        
+                    ]}
                 ],
                  "vue":[
                     {"id":"vue"},
                     {"title":"我是第3个vue内容"},
                     {"detail":"vue3333"},
-                    {"imgsrc":"../../assets/images/artpic.jpg"}
+                    {"imgsrc":"../../assets/images/artpic.jpg"},
+                    {"reviews":[
+                       
+                    ]}
                 ],
                 "jq":[
                     {"id":"jquery"},
                     {"title":"我是第3个jquery内容"},
                     {"detail":"jquery333"},
-                    {"imgsrc":"../../assets/images/artpic.jpg"}
+                    {"imgsrc":"../../assets/images/artpic.jpg"},
+                    {"reviews":[
+                      
+                    ]}
                 ],
                 "food":[
                     {"id":"food"},
                     {"title":"我是第3个美食推荐"},
                     {"detail":"美食333"},
-                    {"imgsrc":""}
+                    {"imgsrc":""},
+                    {"reviews":[
+                   
+                    ]}
                 ]
             },
             {
@@ -83,25 +119,37 @@
                     {"id":"angular"},
                     {"title":"我是第4个angular内容"},
                     {"detail":"angular444"},
-                    {"imgsrc":""}
+                    {"imgsrc":""},
+                    {"reviews":[
+                        
+                    ]}
                 ],
                  "vue":[
                     {"id":"vue"},
                     {"title":"我是第4个vue内容"},
                     {"detail":"vue44444"},
-                    {"imgsrc":"../../assets/images/artpic.jpg"}
+                    {"imgsrc":"../../assets/images/artpic.jpg"},
+                    {"reviews":[
+                   
+                    ]}
                 ],
                 "jq":[
                     {"id":"jquery"},
                     {"title":"我是第4个jquery内容"},
                     {"detail":"jquery444"},
-                    {"imgsrc":""}
+                    {"imgsrc":""},
+                    {"reviews":[
+                  
+                    ]}
                 ],
                 "food":[
                     {"id":"food"},
                     {"title":"我是第4个美食推荐"},
                     {"detail":"美食444"},
-                    {"imgsrc":"../../assets/images/artpic.jpg"}
+                    {"imgsrc":"../../assets/images/artpic.jpg"},
+                    {"reviews":[
+                  
+                    ]}
                 ]
             }
 
