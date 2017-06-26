@@ -53,7 +53,7 @@ export class ReviewComponent implements OnInit {
   addText(val:string){
     //添加时间
     this.nowYear = this.myDate.getFullYear();
-    this.nowMonth = this.myDate.getMonth();
+    this.nowMonth = this.myDate.getMonth()+1;
     this.nowDay = this.myDate.getDate();
     this.nowHour = this.myDate.getHours();
     this.nowMin = this.myDate.getMinutes();
