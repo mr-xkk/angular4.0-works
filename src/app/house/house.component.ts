@@ -1,6 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit,Inject } from '@angular/core';
 import{ appRoutes } from '../app.route'
-
 
 @Component({
   selector: 'app-house',
@@ -14,6 +13,7 @@ export class HouseComponent implements OnInit {
   }
 
   ngOnInit() {
+    
   }
 
 }

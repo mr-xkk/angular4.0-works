@@ -30,6 +30,7 @@ import { ClassificationComponent } from './classification/classification.compone
 import { ThumbComponent } from './thumb/thumb.component';
 import { ModalsComponent } from './modals/modals.component';
 import { ReviewComponent } from './review/review.component';
+import { MusiclistComponent } from './musiclist/musiclist.component';
 
 
 
@@ -48,7 +49,8 @@ import { ReviewComponent } from './review/review.component';
     ClassificationComponent,
     ThumbComponent,
     ModalsComponent,
-    ReviewComponent
+    ReviewComponent,
+    MusiclistComponent
   ],
   imports: [
     BrowserModule,

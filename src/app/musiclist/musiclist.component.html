@@ -1,0 +1,10 @@
+<div *ngFor="let listItem of myList?.playlist.tracks" class="row mic_list">
+  <button (click)="sendToP(listItem.id)">播放</button>
+  <div class="col-md-6 mic_p">
+    <a href="javascript:;">{{listItem.name}}</a>
+  </div>
+  <div class="col-md-6 mic_pic">
+    <img [src]="listItem.al.picUrl" alt="专辑封面">
+  </div>
+</div>
+

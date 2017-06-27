@@ -6,6 +6,7 @@ import 	{ AboutComponent } from './about/about.component';
 import 	{ ContactComponent } from './contact/contact.component';
 import	{ CodedetailComponent }from './codedetail/codedetail.component'
 import 	{ ClassificationComponent } from './classification/classification.component';
+import 	{ MusiclistComponent } from './musiclist/musiclist.component'
 
 export const appRoutes=[
     {

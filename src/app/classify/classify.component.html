@@ -13,8 +13,26 @@
     <p class="blog_list">
       <a routerLink="classification/food"><i class="fa fa-caret-right"></i>&nbsp;美食分享</a>
     </p>
-     <audio src="../../assets/music_bg.mp3" controls style="width:100%;">您的浏览器不支持audio音频播放!</audio>
+    <hr>
+     <!--集成音乐区仅供调试-->
+     <p>我的歌单</p>
+     <ul>
+        <li>
+          {{showList?.playlist.creator.nickname}}
+        </li>
+        <li>
+          <img [src]="showList?.playlist.creator.avatarUrl" alt="头像">
+        </li>
+        <li>
+          <a routerLink="music">查看我的歌单</a>
+        </li>
+     </ul>
   </div>
+  <!--播放器-->
+  <p>{{musicId}}</p>
+  <audio src="" controls style="width:100%;"></audio>
+  <!--子歌单模块-->
+  <app-musiclist (toOut)="receive($event)"></app-musiclist>
   <!--自我介绍区域-->
   <div class="about_me" style="border-top:3px solid #acc4ac">
     <h1 class="me_h1">关于我</h1>
