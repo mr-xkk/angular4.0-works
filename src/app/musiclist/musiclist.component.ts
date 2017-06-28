@@ -9,6 +9,7 @@ export class MusiclistComponent implements OnInit {
 
 
   @Output() private toOut = new EventEmitter<string>();
+
   //我的歌单
   myList : string;
   musicId : string;

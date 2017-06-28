@@ -10,7 +10,8 @@ export class ClassifyComponent implements OnInit {
   
   showList : string;
   musicId : string;
-  
+  //显示歌单
+  showPlay : boolean = false;
 
   //获取子级传的参数
   receive(msg:string){

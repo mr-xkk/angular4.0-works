@@ -15,7 +15,7 @@
     </p>
     <hr>
      <!--集成音乐区仅供调试-->
-     <p>我的歌单</p>
+     <p class="show_list">我的歌单</p>
      <ul>
         <li>
           {{showList?.playlist.creator.nickname}}
@@ -24,12 +24,12 @@
           <img [src]="showList?.playlist.creator.avatarUrl" alt="头像">
         </li>
         <li>
-          <a routerLink="music">查看我的歌单</a>
+          <p (click)="showPlay=!showPlay" class="show_list">查看我的歌单</p>
         </li>
      </ul>
   </div>
   <!--子歌单模块-->
-  <app-musiclist (toOut)="receive($event)"></app-musiclist>
+  <app-musiclist (toOut)="receive($event)" *ngIf="showPlay"></app-musiclist>
   <!--自我介绍区域-->
   <div class="about_me" style="border-top:3px solid #acc4ac">
     <h1 class="me_h1">关于我</h1>
