@@ -1,8 +1,4 @@
-import { Component, OnInit,Inject } from '@angular/core';
-//引入解析url的模块
-import {ActivatedRoute, Params} from '@angular/router';
-import { Http } from '@angular/http';
-import { MusiclistComponent } from '../musiclist/musiclist.component'
+import { Component, OnInit } from '@angular/core';
 
 
 @Component({
@@ -14,13 +10,16 @@ export class ClassifyComponent implements OnInit {
   
   showList : string;
   musicId : string;
+  
 
-  constructor(@Inject(ActivatedRoute) public router: ActivatedRoute,private http: Http) { }
+  //获取子级传的参数
+  receive(msg:string){
+    this.musicId = msg;
+  }
+
+  constructor() { }
 
   ngOnInit() {
-    this.router.params.subscribe((params: Params) => {
-      console.log(params);
-    })
     $.ajax({
       type: 'GET',
       url:'http://localhost:3000/playlist/detail?id=134689510',
@@ -31,8 +30,5 @@ export class ClassifyComponent implements OnInit {
       }
     }) 
   }
-  //获取子级传的参数
-  receive(msg:string){
-    this.musicId = msg;
-  }
+  
 }

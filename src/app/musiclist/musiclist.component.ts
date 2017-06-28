@@ -10,7 +10,9 @@ export class MusiclistComponent implements OnInit {
 
   @Output() private toOut = new EventEmitter<string>();
   //我的歌单
-  myList : string
+  myList : string;
+  musicId : string;
+  musicUrl : string;
 
   constructor() { }
 
@@ -29,5 +31,16 @@ export class MusiclistComponent implements OnInit {
   //传参到父级
      sendToP(info){
       this.toOut.emit(info);
+      console.log(info);
+      this.musicId = info;
+       $.ajax({
+        type: 'GET',
+        url:'http://localhost:3000/music/url?id='+this.musicId,
+        dataType:'json', 
+        success:(msg)=>{
+            console.log(msg);
+            this.musicUrl = msg;
+        }
+      }) 
     }
 }
