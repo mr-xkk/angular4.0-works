@@ -21,22 +21,25 @@ export class MusiclistComponent implements OnInit {
     //获取数据
      $.ajax({
       type: 'GET',
-      url:'http://localhost:3000/playlist/detail?id=134689510',
+      url:'https://api.imjad.cn/cloudmusic?type=playlist&id=134689510',
       dataType:'json', 
       success:(msg)=>{
           console.log(msg);
           this.myList = msg;
-      }
-    })
-  }
-  //传参到父级
-     sendToP(info){
-      this.toOut.emit(info);
+        }
+      })
+    }
+    //传参到父级
+      sendToP(info,name){
+      this.toOut.emit(name);
       console.log(info);
+      console.log(name);
+      //获取id播放
       this.musicId = info;
+      console.log(this.musicId);
        $.ajax({
         type: 'GET',
-        url:'http://localhost:3000/music/url?id='+this.musicId,
+        url:'http://musicapi.duapp.com/api.php?type=url&id='+this.musicId,
         dataType:'json', 
         success:(msg)=>{
             console.log(msg);

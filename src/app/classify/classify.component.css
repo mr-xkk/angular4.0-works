@@ -11,7 +11,7 @@ a:hover{
     font: 16px/35px "Helvetica";
 }
 .blog_list a{
-    color:#000;
+    color:#666;
 }
 .blog_list a:hover{
     color:#acc4ac;
@@ -31,4 +31,7 @@ a:hover{
     color:#9ec09f;
     cursor: pointer;
     line-height: 30px;
+}
+.to_look{
+    color:#666;
 }

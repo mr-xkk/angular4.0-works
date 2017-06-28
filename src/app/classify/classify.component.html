@@ -18,15 +18,18 @@
      <p class="show_list">我的歌单</p>
      <ul>
         <li>
-          {{showList?.playlist.creator.nickname}}
+          <p class="show_list to_look">
+            {{showList?.playlist.creator.nickname}}
+          </p>  
         </li>
         <li>
           <img [src]="showList?.playlist.creator.avatarUrl" alt="头像">
         </li>
         <li>
-          <p (click)="showPlay=!showPlay" class="show_list">查看我的歌单</p>
+          <p (click)="showPlay=!showPlay" class="show_list to_look" style="color:#111;">点击查看我的歌单</p>
         </li>
      </ul>
+     <p class="show_list">当前播放: <span class="to_look">{{doName}}</span></p>
   </div>
   <!--子歌单模块-->
   <app-musiclist (toOut)="receive($event)" *ngIf="showPlay"></app-musiclist>

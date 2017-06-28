@@ -2,9 +2,8 @@
 <audio [src]="musicUrl?.data[0].url" controls autoplay style="width:100%;"></audio>
 <!---->
 <div *ngFor="let listItem of myList?.playlist.tracks" class="row mic_list">
-  <button (click)="sendToP(listItem.id)" class="btn btn-primary">播放</button>
   <div class="col-md-6 mic_p">
-    <a href="javascript:;">{{listItem.name}}</a>
+    <p class="start_song" (click)="sendToP(listItem.id,listItem.name)">{{listItem.name}}</p>
   </div>
   <div class="col-md-6 mic_pic">
     <img [src]="listItem.al.picUrl" alt="专辑封面">

@@ -4,6 +4,9 @@
 .mic_p{
     font: 16px/23px "Helevtica"
 }
+.start_song{
+    cursor: pointer;
+}
 .mic_pic img{
     width: 100%;
 }
