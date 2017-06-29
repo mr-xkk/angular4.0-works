@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ClassifyComponent implements OnInit {
   
-  showList : string;
+  showList : object;
   doName : string;
   //显示歌单
   showPlay : boolean = false;

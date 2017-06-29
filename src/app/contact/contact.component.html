@@ -2,7 +2,7 @@
   <div class="contact_content col-md-7 col-md-offset-1">
       <h1 class="contact_h1">和我联系</h1>
       <p class="content_p">请填写一下内容</p>
-      <form>
+    <form>
       <div class="form-group">
         <label for="yname" class="content_p">称呼</label>
         <input type="email" class="form-control" id="yname" placeholder="请输入你的称呼">
@@ -10,11 +10,11 @@
       <div class="form-group">
         <label for="yemail" class="content_p">邮箱</label>
         <input type="email" class="form-control" id="yemail" placeholder="请输入你的邮箱" pattern="^[A-Za-zd]+([-_.][A-Za-zd]+)*@([A-Za-zd]+[-.])+[A-Za-zd]{2,5}$" 
-    oninvalid="setCustomValidity('请输入正确的邮箱地址')">
+        oninvalid="setCustomValidity('请输入正确的邮箱地址')">
       </div>
       <div class="form-group">
         <label for="ycontent" class="content_p">内容</label>
-        <textarea name="" id="ycontent"  rows="3" class="form-control" placeholder="请留下你的宝贵留言"></textarea>
+        <textarea name="text" id="ycontent"  rows="3" class="form-control" placeholder="请留下你的宝贵留言"></textarea>
       </div>
       <button type="submit" class="btn btn-warning">送出</button>
     </form>

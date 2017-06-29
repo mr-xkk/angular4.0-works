@@ -20,7 +20,7 @@ export class ReviewComponent implements OnInit {
   nowHour : string;
   nowMin: string;
 
-  textval : string;
+  textval : any;
   showInfo : object;
   getName : string;
   //需要插入的数据
