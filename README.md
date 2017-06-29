@@ -9,7 +9,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## 这两天整合了网易云音乐的歌单和播放
 首先感谢`https://github.com/Binaryify/NeteaseCloudMusicApi提供的nodejs的api`,才让我能实现这一功能,这一功能主要在classify和musiclist这两个模块内,目前只是可以播放我的歌单里的音乐,由于api不是很稳定,所以有些格式和播放器以及图片的格式没有调整,只是实现了最简单的功能,利用了angular4.0中的父子组件之间的通信,传递当前歌曲的ID以获取对应的url,实现播放功能;
  
-![image](https://github.com/mr-xkk/angular4.0-works/src/assets/musicplay.png);
+![image](https://github.com/mr-xkk/angular4.0-works/blob/master/src/assets/images/muscilist1.png);
  
 ## 还增加了一个留言的功能,评论按照评论的时间显示,还可以发布多条评论
 
