@@ -14,7 +14,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## 还增加了一个留言的功能,评论按照评论的时间显示,还可以发布多条评论
 
 ![image](https://github.com/mr-xkk/angular4.0-works/blob/master/src/assets/images/talklist.png);
-
+ 
+## 下面是文件的目录结构
+ 
+![image](https://github.com/mr-xkk/angular4.0-works/blob/master/src/assets/images/list1.png); 
+ 
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
