@@ -1,0 +1,103 @@
+F:.
+│  app.component.css
+│  app.component.html
+│  app.component.spec.ts
+│  app.component.ts
+│  app.module.ts	//注册,引入模块	
+│  app.route.ts	//路由
+│  list.txt	//tree
+│  
+├─about  //关于我模块
+│      about.component.css
+│      about.component.html
+│      about.component.spec.ts
+│      about.component.ts
+│      
+├─all_data	//处理数据格式
+│      homedata.ts
+│      
+├─animations	//路由载入动画模块
+│      animate_show.ts
+│      fade_in.ts
+│      
+├─blog  //博客模块
+│      blog.component.css
+│      blog.component.html
+│      blog.component.spec.ts
+│      blog.component.ts
+│      
+├─carousel   //轮播图部分
+│      carousel.component.css
+│      carousel.component.html
+│      carousel.component.spec.ts
+│      carousel.component.ts
+│      
+├─classification  //分类显示详情模块
+│      classification.component.css
+│      classification.component.html
+│      classification.component.spec.ts
+│      classification.component.ts
+│      
+├─classify  //分类区和歌单模块
+│      classify.component.css
+│      classify.component.html
+│      classify.component.spec.ts
+│      classify.component.ts
+│      
+├─codedetail  //内容详情模块
+│      codedetail.component.css
+│      codedetail.component.html
+│      codedetail.component.spec.ts
+│      codedetail.component.ts
+│      
+├─contact	//和我联系模块
+│      contact.component.css
+│      contact.component.html
+│      contact.component.spec.ts
+│      contact.component.ts
+│      
+├─home	主加载模块
+│      home.component.css
+│      home.component.html
+│      home.component.spec.ts
+│      home.component.ts
+│      
+├─house	头部模块和次渲染模块
+│      house.component.css
+│      house.component.html
+│      house.component.spec.ts
+│      house.component.ts
+│      
+├─modals	//弹出模态层模块
+│      modals.component.css
+│      modals.component.html
+│      modals.component.spec.ts
+│      modals.component.ts
+│      
+├─musiclist	//歌单模块
+│      musiclist.component.css
+│      musiclist.component.html
+│      musiclist.component.spec.ts
+│      musiclist.component.ts
+│      
+├─review	//留言模块
+│      review.component.css
+│      review.component.html
+│      review.component.spec.ts
+│      review.component.ts
+│      
+├─rightdet	//分类标题模块
+│  │  rightdet.component.css
+│  │  rightdet.component.html
+│  │  rightdet.component.spec.ts
+│  │  rightdet.component.ts
+│  │  
+│  └─server
+│          rightserver.ts
+│          
+└─thumb	//点赞模块
+        thumb.component.css
+        thumb.component.html
+        thumb.component.spec.ts
+        thumb.component.ts
+        
