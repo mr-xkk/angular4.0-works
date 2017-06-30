@@ -16,4 +16,8 @@ export class HouseComponent implements OnInit {
     
   }
 
+  reseach(){
+    document.forms[0].submit();
+  }
+
 }

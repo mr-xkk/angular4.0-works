@@ -36,5 +36,4 @@ export class ContactComponent implements OnInit {
 　　}
     document.forms[0].submit();
   }
-
 }

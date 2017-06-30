@@ -23,14 +23,15 @@
         </li>
       </ul>
     </div>
+    <!--整合百度的搜索框-->
     <div class="nav_list col-md-6 col-sm-6">
-     <form class="form-inline">
+     <form class="form-inline" action="http://www.baidu.com/baidu" target="_blank">
        <label>
         <div class="form-group">
-          <input type="email" class="form-control" placeholder="请输入关键字">
+          <input type="email" name="word" class="form-control" placeholder="请输入关键字">
         </div>
         </label>
-        <button type="submit" class="btn btn-warning" style="outline:none;"><i class="fa fa-search"></i></button>
+        <button type="submit" (click)="reseach()" class="btn btn-warning" style="outline:none;"><i class="fa fa-search"></i></button>
     </form>
     </div>
   </div>
