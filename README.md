@@ -17,7 +17,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
  
 ## 下面是文件的目录结构
  
-![image](https://github.com/mr-xkk/angular4.0-works/blob/master/src/assets/images/list1.png); 
+![image](https://github.com/mr-xkk/angular4.0-works/blob/master/src/assets/images/list1.png);
+<br>
+![image](https://github.com/mr-xkk/angular4.0-works/blob/master/src/assets/images/list2.png);
  
 ## Development server
 
