@@ -21,6 +21,7 @@ export class ContactComponent implements OnInit {
     
   }
   //提交函数
+  //表单验证
   sub(){
     console.log(this.eTxt);
     let patten2=new RegExp(/^[0-9|A-z|_]{1,17}[@][0-9|A-z]{1,3}.(com)$/);   
